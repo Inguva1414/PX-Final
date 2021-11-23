@@ -1,7 +1,7 @@
 //Run PX Tag
 
 //REST API DEMO SITE
-//e7781811-93e6-43bf-bd98-8bc8f4f6d867
+//ad1c306c-21a0-4fc3-b303-1935b8cb4dda
 
 const departments = ["Finance","Marketing","Sales","Engineering","Customer Service","Human Resources"];
 const languages = ["English","Spanish","German","Arabic","French"];
@@ -146,7 +146,7 @@ function generateRandomUser(){
 function loginExistingUser(){
 	fetch('https://api.aptrinsic.com/v1/users?pageSize=1000', {
 		method: "GET",
-		headers: {"X-APTRINSIC-API-KEY": "e7781811-93e6-43bf-bd98-8bc8f4f6d867"}
+		headers: {"X-APTRINSIC-API-KEY": "ad1c306c-21a0-4fc3-b303-1935b8cb4dda"}
 	  })
 	  .then(response => response.json()) 
 	  .then(data => {
